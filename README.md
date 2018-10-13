@@ -12,7 +12,7 @@ var SassVars = require('sass-variables-webpack-plugin')
 module.exports = {
     ...
     plugins: [
-        SassVars('../src/sass/vars.scss')
+        SassVars(path.resolve(__dirname, '../src/sass/vars.scss'))
     ],
 }
 ```
