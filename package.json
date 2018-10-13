@@ -1,0 +1,26 @@
+{
+  "name": "sass-variables-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Use Sass Vars in JavaScript",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiaweilee/sass-variables-webpack-plugin.git"
+  },
+  "keywords": [
+    "sass",
+    "vars"
+  ],
+  "author": "+v",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiaweilee/sass-variables-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/chiaweilee/sass-variables-webpack-plugin#readme"
+}
