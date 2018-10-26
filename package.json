@@ -23,9 +23,10 @@
     "url": "https://github.com/chiaweilee/sass-variables-webpack-plugin/issues"
   },
   "homepage": "https://github.com/chiaweilee/sass-variables-webpack-plugin#readme",
-  "dependencies": {},
+  "dependencies": {
+    "sass-extract": "^2.1.0"
+  },
   "devDependencies": {
-    "sass-extract": "^2.1.0",
     "webpack": "^4.20.2"
   }
 }
