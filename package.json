@@ -1,6 +1,6 @@
 {
   "name": "sass-variables-webpack-plugin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Use Sass Vars in JavaScript",
   "main": "lib/index.js",
   "directories": {
