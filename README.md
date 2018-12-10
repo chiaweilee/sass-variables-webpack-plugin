@@ -1,4 +1,7 @@
 ## sass-variables-webpack-plugin
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/chiaweilee/sass-variables-webpack-plugin.svg)](https://greenkeeper.io/)
+
 Use Sass variables in JavaScript
 
 ### Install
