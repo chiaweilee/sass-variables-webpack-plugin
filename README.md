@@ -1,18 +1,18 @@
-# sass-variables-webpack-plugin
+## sass-variables-webpack-plugin
 Use Sass variables in JavaScript
 
-# Install
+### Install
 ```terminal
 npm install sass-variables-webpack-plugin
 ```
 
-# Usage in Webpack config
+### Usage in Webpack config
 ```js
 var SassVars = require('sass-variables-webpack-plugin')
 module.exports = {
     ...
     plugins: [
-        SassVars(path.resolve(__dirname, '../src/sass/vars.scss'))
+        SassVars('src/sass/vars.scss')
     ],
 }
 ```
@@ -24,7 +24,7 @@ $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 ```
 
-# Output
+### Output
 
 ```js
 // anywhere
