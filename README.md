@@ -2,19 +2,21 @@
 Use Sass variables in JavaScript
 
 ### Install
-```terminal
+```bash
 npm install sass-variables-webpack-plugin
 ```
 
-### Usage in Webpack config
-```js
-var SassVars = require('sass-variables-webpack-plugin')
-module.exports = {
-    ...
-    plugins: [
-        SassVars('src/sass/vars.scss')
-    ],
-}
+### Usage
+```JavaScript
+// webpack.config.js
+var SassVariablesPlugin = require('sass-variables-webpack-plugin')
+```
+
+```JavaScript
+// webpack.config.js
+plugins: [
+    new SassVariablesPlugin('src/sass/vars.scss'/* , 'process.env.SASS_VAR' */)
+]
 ```
 
 ```scss
@@ -26,19 +28,18 @@ $gray-200: #e9ecef !default;
 
 ### Output
 
-```js
-// anywhere
-// eslint-disable-next-line
-console.log(sassVars)
+```JavaScript
+process.env.SASS_VAR.$white // '#fff'
 ```
 
-* Your ESLint may report 'not defined';
-* use SassVars('../src/sass/vars.scss', 'MySassVAR'/* Your custom name */) to instead default name of 'sassVars'.
+### Custom output
 
-```console
-{$white: {…}, $gray-100: {…}, $gray-200: {…}, $gray-300: {…}, $gray-400: {…}, …}
-$black: {r: 0, g: 0, b: 0, a: 1, hex: "#000000"}
-$blue: {r: 0, g: 123, b: 255, a: 1, hex: "#007bff"}
-$color-bg: {r: 238, g: 238, b: 238, a: 1, hex: "#eeeeee"}
-...
+e.g
+
+```JavaScript
+new SassVariablesPlugin('src/sass/vars.scss', 'sassvar')
+```
+
+```JavaScript
+console.log(sassvar)
 ```
