@@ -1,6 +1,10 @@
 ## sass-variables-webpack-plugin
 Use Sass variables in JavaScript
 
+<a href="https://npmcharts.com/compare/sass-variables-webpack-plugin?minimal=true"><img src="https://img.shields.io/npm/dm/sass-variables-webpack-plugin.svg" alt="Downloads"></a>
+<a href="https://www.npmjs.com/package/sass-variables-webpack-plugin"><img src="https://img.shields.io/npm/v/sass-variables-webpack-plugin.svg" alt="Version"></a>
+<a href="https://www.npmjs.com/package/sass-variables-webpack-plugin"><img src="https://img.shields.io/npm/l/sass-variables-webpack-plugin.svg" alt="License"></a>
+
 ### Install
 ```bash
 npm install sass-variables-webpack-plugin
